@@ -55,16 +55,13 @@ body{
     background-color: rgb(255,190,105);
     
 }
-.body3{
+.column3{
     float: left;
     width:40%;
     margin: 40px;
     padding-bottom:100px;
     height: 150px;
     text-align:center;
-}
-.body3.img{
-    float:right;
 }
 footer{
     position: fixed;
@@ -76,4 +73,21 @@ footer{
     width: 100%;
     text-align:left;
     background: rgb(58,58,86);
+}
+
+img {
+  width: 300px;
+}
+
+.flexIt {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.puppy {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
